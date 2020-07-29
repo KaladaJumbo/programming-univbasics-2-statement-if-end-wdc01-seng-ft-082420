@@ -7,3 +7,4 @@ if even_or_odd_calc
   puts "Even!"
 else 
   puts "Odd!"
+end
