@@ -1,9 +1,7 @@
-chance_of_rain = 0.2
-puts "lets go outside"
-if chance_of_rain <= 0.25 
-  puts "pack a sun shelter"
-elsif (chance_of_rain > 0.25 && chance_of_rain < 0.75) 
-  puts "Pack an umbrella"
+puts "hey what year is it? \n"
+this_year = gets
+if this_year == 2020
+  puts " this is the worst year ever"
 else 
-  puts "stay home and read hegal"
+  puts "oh .. happy new year"
 end
