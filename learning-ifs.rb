@@ -1,3 +1,4 @@
+
 puts "hey what year is it? \n"
 this_year = gets.chomp
 while this_year != "exit"
