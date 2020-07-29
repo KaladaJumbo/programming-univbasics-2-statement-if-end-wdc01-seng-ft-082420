@@ -6,7 +6,7 @@ if false
   puts "you will never see this"
 end
 
-run_code = true 
+run_code = false 
 puts "code on the outside"
 if run_code
   puts "code inside"
