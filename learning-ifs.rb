@@ -1,14 +1,8 @@
-if true 
-  puts "this code runs!"
+chance_of_rain = 0.2 
+puts "lets go outside"
+if chance_of_rain > 0.5 
+  puts "pack and umbrella!"
+else 
+  puts "enjoy the fine day"
 end
-
-if false 
-  puts "you will never see this"
-end
-
-run_code = false
-puts "code on the outside"
-if run_code
-  puts "code inside"
-end 
-puts "code after if...end"
+puts "oh and always wear sunscreen!"
